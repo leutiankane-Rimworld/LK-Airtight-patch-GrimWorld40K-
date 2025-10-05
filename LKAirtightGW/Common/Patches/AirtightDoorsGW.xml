@@ -30,4 +30,14 @@
 		</value>
 	</Operation>
 
+	<Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[@Name="GW_GarageDoor"]</xpath>
+		<value>
+		<building>
+				<isAirtight>true</isAirtight>
+		</building>
+		</value>
+	</Operation>
+
+
 </Patch>
