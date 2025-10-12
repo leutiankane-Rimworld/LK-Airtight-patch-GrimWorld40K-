@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+  
+  <!-- Grimworld 40k -->
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="HP_Ceramite"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="HP_Auramite"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="HP_Ceramite"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="HP_Adamantium"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="GW_Rockcrete"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+   <xpath>Defs/ThingDef[defName="GW_Plascrete"]/stuffProps</xpath>
+  <value>
+    <isAirtight>true</isAirtight>
+  </value>
+  </Operation>
+</Patch>
