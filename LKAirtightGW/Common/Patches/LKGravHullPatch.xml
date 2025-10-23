@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+<!--Makes Gravsship hull create oxygen like an oxygen pump.-->
+<Operation Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="GravshipHull"]/comps</xpath>
+		<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GravshipHull"]</xpath>
+		<value>
+		<comps />
+		</value>
+		</nomatch>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="GravshipHull"]/comps</xpath>
+	<value>
+        <li Class="CompProperties_OxygenPusher">
+        <requiresPower>false</requiresPower>
+        <airPerSecondPerHundredCells>0.01</airPerSecondPerHundredCells>
+        </li>
+    </value>
+    </Operation>   
+
+</Patch>
